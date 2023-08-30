@@ -115,7 +115,7 @@ JSON, в котором содержатся:
 ### Выходные данные
 JSON, структура которого приведена в разделе "Выходные данные" эндпоинта "GET /conferences/{conference_id}/applications/{application_id}/publication", содержащий актуальную информацию о публикации.
 
-### Настройка и запуск
+# Настройка и запуск
 1. Установить зависимости из **requirements.txt**
 2. Добавить credits от Google API в файл **creds.json**
 3. В **dbs_access.py** заполнить переменные confSpreadsheetId и gDriveFolder идентификатором таблицы с конференциями (Google Spreadsheets) и идентификатором папки на Google Drive соответственно
